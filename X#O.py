@@ -111,7 +111,8 @@ def play_game():
 
         if check_winner(board, player_turn): # Перевіряємо, чи є переможець
             print_board(board) # Виводимо дошку
-            print(f"Переміг гравець {player_turn}!") # Виводимо повідомлення            break
+            print(f"Переміг гравець {player_turn}!") # Виводимо повідомлення            
+            break
         if is_board_full(board):
             print_board(board)
             print("Нічия!")
